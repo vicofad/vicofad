@@ -1,75 +1,141 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Instagram Vico</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
     <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
       rel="stylesheet"
+      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+      crossorigin="anonymous"
     />
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js%22%3E"></script>
-    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <div class="row kotak">
-      <div class="col-sm-1 ko">
-        <h2></h2>
-      </div>
-      <div class="col-sm-4 t">
-        <img src="pp.jpg" alt="" />
-      </div>
-      <div class="col-sm-6 ak">
-        <div class="col-sm-12 nama">
-          <div class="col-sm-12 na">
-            <h2>vicofad</h2>
-          </div>
-          <div class="col-sm-12 ma">
-            <h2>
-              <div class="row pol">
-                <div class="col-2 pos">
-                  <h4>6 post</h4>
-                </div>
-                <div class="col-3 er">
-                  <h4>10 Followers</h4>
-                </div>
-                <div class="col-3 ng">
-                  <h4>10 Following</h4>
-                </div>
-              </div>
-            </h2>
-          </div>
-          <div class="col-sm-12 ku">
-            <h2>Hello</h2>
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand" href="#">Instagram</a>
+      </ul>
+      <div>
+      <form class="d-flex" role="search">
+
+        <input class="form-control me-2" type="search"  placeholder="Search" aria-label="Search">
+      </form>
+    </div>
+        <div class="d-flex Me-2">
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="halaman.html"
+                ><i class="bi bi-house"> Home</i></a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link" href="#"
+                ><i class="bi bi-globe"> Explore </i></a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index.html"
+                ><i class="bi bi-person-circle"> Profile </i></a
+              >
+            </li>
           </div>
         </div>
       </div>
-      <div class="col-sm-1 ko">
-        <h2></h2>
-      </div>
-    </div>
-    <div class="row post">
-      <div class="col-sm-4 po">
-        <img src="1.jpg" alt="" />
-      </div>
-      <div class="col-sm-4 st">
-        <img src="2.jpg" alt="" />
-      </div>
-      <div class="col-sm-4 ing">
-        <img src="3.jpg" alt="" />
-      </div>
-    </div>
-    <div class="row post">
-      <div class="col-sm-4 po">
-        <img src="1.jpg" alt="" />
-      </div>
-      <div class="col-sm-4 st">
-        <img src="2.jpg" alt="" />
-      </div>
-      <div class="col-sm-4 ing">
-        <img src="3.jpg" alt="" />
-      </div>
-    </div>
+    </nav>
+
+
+    <!-- feed -->
+    <div class="container mt-2">
+      <div class="row my-2 ">
+        <div class="col-md-2">
+          <div class="card" style="width: 40rem;">
+            <div class="card-header">
+              <b>vicofad</b>
+            </div>
+            <img src="1.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <div class="card-title">
+                <i class="bi bi-heart"></i>
+                <i class="bi bi-chat"></i>
+                <i class="bi bi-telegram"></i>
+              </div>
+              <p>Disukai oleh <b> edward</b> dan <b>900 orang lainnya </b></p>
+              <p>Sipaling metal</p>
+              <p class="card-text"><b>fizi</b> sipaling ga tuh</p>
+              <a href="#" class="btn btn-primary">selengkapnya</a>
+            </div>
+            <div class="card-footer">
+              <i class="bi bi-emoji-smile"></i>
+              <input type="text" class="w-75 border border-transparan bg-transparan" placeholder=" Tulis Komentar....." />
+              <a href="#" class="text-decoration-none">kirim</a>
+            </div>
+          </div>
+          <div class="row my-5">
+            <div class="col-md-2">
+              <div class="card" style="width: 40rem;">
+                <div class="card-header">
+                  <b>vicofad</b>
+                </div>
+                <img src="2.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <div class="card-title">
+                    <i class="bi bi-heart"></i>
+                    <i class="bi bi-chat"></i>
+                    <i class="bi bi-telegram"></i>
+                  </div>
+                  <p>Disukai oleh <b> david</b> dan <b>850 orang lainnya </b></p>
+                  <p>sipaling skate</p>
+                  <p class="card-text"><b>rezarap</b> join cuk</p>
+                  <a href="#" class="btn btn-primary">selengkapnya</a>
+                </div>
+                <div class="card-footer">
+                  <i class="bi bi-emoji-smile"></i>
+                  <input type="text" class="w-75 border border-transparan bg-transparan"
+                    placeholder=" Tulis Komentar....." />
+                  <a href="#" class="text-decoration-none">kirim</a>
+                </div>
+              </div>
+            </div>
+            <div class="row my-5">
+                <div class="col-md-2">
+                  <div class="card" style="width: 40rem;">
+                    <div class="card-header">
+                      <b>vicofad</b>
+                    </div>
+                    <img src="3.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <div class="card-title">
+                        <i class="bi bi-heart"></i>
+                        <i class="bi bi-chat"></i>
+                        <i class="bi bi-telegram"></i>
+                      </div>
+                      <p>Disukai oleh <b> bigsmoke</b> dan <b>890 orang lainnya </b></p>
+                      <p>mukalu kaya GTA</p>
+                      <p class="card-text"><b>billgates</b> anjir lo</p>
+                      <a href="#" class="btn btn-primary">selengkapnya</a>
+                    </div>
+                    <div class="card-footer">
+                      <i class="bi bi-emoji-smile"></i>
+                      <input type="text" class="w-75 border border-transparan bg-transparan"
+                        placeholder=" Tulis Komentar....." />
+                      <a href="#" class="text-decoration-none">kirim</a>
+                    </div>
+                  </div>
+                </div>
+          </div>
+
+      
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
